@@ -1,0 +1,91 @@
+.calc
+{
+	width: 300px;
+	background-color: #A33;
+	font-family: Arial, 'VT323';
+}
+
+.header {
+	background-color: #f1f1f1;
+	padding: 1em 2em 2em 2em;
+	height: 100%;
+	border: 0.5em outset #555;
+}
+
+h1 {
+	margin: 0.5em 0 0.5em 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+.header hr {
+	border: 0;
+	border-bottom: 0.25em solid #675;
+	margin-left: -2em;
+	margin-right: -2em;
+	margin-bottom: 0;
+}
+
+.red {
+	border-bottom: 0.25em solid #f00;
+}
+
+input[type=text] {
+	background-color: #f833;
+	color: black;
+	font-size: 300%;
+	min-width: 95%;
+	max-width: 95%;
+	border: 0.1em inset #5355;
+	padding-left: 0.1em;
+	text-align: right;
+}
+
+.body {
+	border: 0,5em outset #C6AF91;
+	height: 100%;
+	min-height: 20em;
+	padding: 1em 1em 3em 1em;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 0.5em;
+	align-items: center;
+}
+
+.body hr {
+	border-bottom: 0.25em solid #9F3543;
+}
+
+input[type=button] {
+	background-color: #444;
+	color: white;
+	font-size: 200%;
+	width: 3.5em;
+	height: 2em;
+	border: 0.2em outset #444;
+	padding: 0;
+	margin: 0;
+}
+
+input[type=button].equals {  
+	background-color: #666;
+	border: 0.2em outset #666;
+}
+
+input[type=button].clear {
+	background-color: #FE75;
+	border: 0.2em outset #FE75;
+}
+
+input[type=button]:active {
+	border: 0 !important;
+}
+
+input[type=button]:focus {
+	outline: 0;
+}
