@@ -1,0 +1,1 @@
+Both lossy and lossless compression methods use various image compression algorithms (an algorithm is a set of rules for a computer to follow) to achieve smaller file sizes. Transform coding, run-length encoding, arithmetic coding, LZW, flate/deflate, and Huffman coding are all examples of image compression algorithms.
